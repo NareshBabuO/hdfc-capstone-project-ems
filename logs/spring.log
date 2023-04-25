@@ -157,3 +157,6 @@
 2023-04-25 12:38:29.303  INFO 11816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (https) with context path ''
 2023-04-25 12:38:29.314  INFO 11816 --- [restartedMain] h.e.p.EmployeeManagmentSystemApplication : Started EmployeeManagmentSystemApplication in 2.915 seconds (JVM running for 6585.833)
 2023-04-25 12:38:29.316  INFO 11816 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-25 13:18:44.233  INFO 11816 --- [https-jsse-nio-8484-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-25 13:18:44.236  INFO 11816 --- [https-jsse-nio-8484-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-25 13:18:44.242  INFO 11816 --- [https-jsse-nio-8484-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
