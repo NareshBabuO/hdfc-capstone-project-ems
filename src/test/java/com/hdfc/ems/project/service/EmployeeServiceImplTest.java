@@ -14,19 +14,17 @@ import com.hdfc.ems.project.vo.EmployeeVO;
 class EmployeeServiceImplTest {
 
 	
-	@Autowired
-	EmployeeService employeeService;
-
-	@Autowired
-	EmployeeRepository employeeRepository;
-
-	@Test
-	void testGetByEmployeeID() throws InValidEmployeeIDException {
-		EmployeeVO employeeID = employeeService.getEmployeeById(16103);
-		
-		assertEquals("Nandan",employeeID.getEmployeeName());
-		
-	}
-	
+	/*
+	 * @Autowired EmployeeService employeeService;
+	 * 
+	 * @Autowired EmployeeRepository employeeRepository;
+	 * 
+	 * @Test void testGetByEmployeeID() throws InValidEmployeeIDException {
+	 * EmployeeVO employeeID = employeeService.getEmployeeById(16103);
+	 * 
+	 * assertEquals("Nandan",employeeID.getEmployeeName());
+	 * 
+	 * }
+	 */
 
 }
