@@ -160,3 +160,39 @@
 2023-04-25 13:18:44.233  INFO 11816 --- [https-jsse-nio-8484-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-04-25 13:18:44.236  INFO 11816 --- [https-jsse-nio-8484-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-04-25 13:18:44.242  INFO 11816 --- [https-jsse-nio-8484-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-04-25 13:18:44.254  INFO 11816 --- [https-jsse-nio-8484-exec-3] c.h.e.p.controller.EmployeeController    : Getting user by ID: 16103 checking..............
+2023-04-25 14:19:12.879  INFO 11816 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-04-25 14:19:12.910  INFO 11816 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-25 14:19:12.913  INFO 11816 --- [Thread-15] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-25 14:19:12.928  INFO 11816 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-25 14:19:12.930  INFO 11816 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-04-25 14:19:12.942  INFO 11816 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-04-25 14:19:13.105  INFO 11816 --- [restartedMain] h.e.p.EmployeeManagmentSystemApplication : Starting EmployeeManagmentSystemApplication using Java 17.0.6 on DESKTOP-BPNARK5 with PID 11816 (C:\Users\Lenovo\Desktop\CapstoneProject\employee-managment-system\bin\main started by Naresh in C:\Users\Lenovo\Desktop\CapstoneProject\employee-managment-system)
+2023-04-25 14:19:13.105  INFO 11816 --- [restartedMain] h.e.p.EmployeeManagmentSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2023-04-25 14:19:13.552  INFO 11816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-25 14:19:13.567  INFO 11816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2023-04-25 14:19:13.689  INFO 11816 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$12d34022] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-25 14:19:13.694  INFO 11816 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-04-25 14:19:13.804  INFO 11816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (https)
+2023-04-25 14:19:13.804  INFO 11816 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25 14:19:13.805  INFO 11816 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-25 14:19:13.878  INFO 11816 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-25 14:19:13.879  INFO 11816 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 770 ms
+2023-04-25 14:19:13.904  INFO 11816 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-04-25 14:19:13.923  INFO 11816 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-04-25 14:19:13.923  INFO 11816 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/Employee_Managment_System'
+2023-04-25 14:19:13.995  INFO 11816 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-25 14:19:14.011  INFO 11816 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-25 14:19:14.080  INFO 11816 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-25 14:19:14.080  INFO 11816 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-25 14:19:14.289  WARN 11816 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-25 14:19:17.588  INFO 11816 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-25 14:19:17.961  INFO 11816 --- [restartedMain] o.a.t.util.net.NioEndpoint.certificate   : Connector [https-jsse-nio-8484], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/Lenovo/Desktop/CapstoneProject/employee-managment-system/bin/main/capstone.p12] using alias [myalias] and with trust store [null]
+2023-04-25 14:19:17.966  INFO 11816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (https) with context path ''
+2023-04-25 14:19:17.973  INFO 11816 --- [restartedMain] h.e.p.EmployeeManagmentSystemApplication : Started EmployeeManagmentSystemApplication in 4.937 seconds (JVM running for 12634.492)
+2023-04-25 14:19:17.976  INFO 11816 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-25 14:19:31.633  INFO 11816 --- [RMI TCP Connection(214)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-25 14:19:31.645  INFO 11816 --- [RMI TCP Connection(214)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-25 14:19:31.649  INFO 11816 --- [RMI TCP Connection(214)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-25 14:19:31.650  INFO 11816 --- [RMI TCP Connection(214)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-04-25 14:19:31.656  INFO 11816 --- [RMI TCP Connection(214)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
